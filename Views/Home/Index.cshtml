@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css"/> 
+    <title>Tamagotchi</title>
+    
+</head>
+<body>
+    <div class="container text-center">
+        <div class="bigbox">
+            <div class="row status">
+                <div class="col-3">Fullness: @ViewBag.Fullness</div>
+                <div class="col-3">Happiness: @ViewBag.Happiness</div>
+                <div class="col-3">Meals: @ViewBag.Meals</div>
+                <div class="col-3">Energy: @ViewBag.Energy</div>
+            </div>
+            <div class="box">
+                <img src= "@ViewBag.Image" id="tamagotchi" width="400px" height="200px">
+                <h4>@ViewBag.Message</h4>
+            </div>
+            <div class="row choices">
+            @{
+                if(TempData["gamestatus"] == null){
+                    <div class="col-3">
+                        <form action="feed" method="POST">
+                            <input type="submit" value="Feed" class="btn btn-info choice">
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form action="play" method="POST">
+                            <input type="submit" value="Play" class="btn btn-info choice">
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form action="work" method="POST">
+                            <input type="submit" value="Work" class="btn btn-info choice">
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form action="sleep" method="POST">
+                            <input type="submit" value="Sleep" class="btn btn-info choice">
+                        </form>
+                    </div>
+                }            
+                else{
+                    <div class="col-12">
+                        <form action="/restart" method="POST">
+                            <input type="submit" value="Restart?" class="btn btn-success restart">
+                        </form>
+                    </div>
+                    }
+                }
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+    

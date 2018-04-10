@@ -1,0 +1,10 @@
+C:\Users\SunDa\Desktop\desktop2018\DojoAssignments\c#\asp\Tamagotchi\bin\Debug\netcoreapp2.0\Tamagotchi.deps.json
+C:\Users\SunDa\Desktop\desktop2018\DojoAssignments\c#\asp\Tamagotchi\bin\Debug\netcoreapp2.0\Tamagotchi.runtimeconfig.json
+C:\Users\SunDa\Desktop\desktop2018\DojoAssignments\c#\asp\Tamagotchi\bin\Debug\netcoreapp2.0\Tamagotchi.runtimeconfig.dev.json
+C:\Users\SunDa\Desktop\desktop2018\DojoAssignments\c#\asp\Tamagotchi\bin\Debug\netcoreapp2.0\Tamagotchi.dll
+C:\Users\SunDa\Desktop\desktop2018\DojoAssignments\c#\asp\Tamagotchi\bin\Debug\netcoreapp2.0\Tamagotchi.pdb
+C:\Users\SunDa\Desktop\desktop2018\DojoAssignments\c#\asp\Tamagotchi\obj\Debug\netcoreapp2.0\Tamagotchi.csproj.CoreCompileInputs.cache
+C:\Users\SunDa\Desktop\desktop2018\DojoAssignments\c#\asp\Tamagotchi\obj\Debug\netcoreapp2.0\Tamagotchi.AssemblyInfoInputs.cache
+C:\Users\SunDa\Desktop\desktop2018\DojoAssignments\c#\asp\Tamagotchi\obj\Debug\netcoreapp2.0\Tamagotchi.AssemblyInfo.cs
+C:\Users\SunDa\Desktop\desktop2018\DojoAssignments\c#\asp\Tamagotchi\obj\Debug\netcoreapp2.0\Tamagotchi.dll
+C:\Users\SunDa\Desktop\desktop2018\DojoAssignments\c#\asp\Tamagotchi\obj\Debug\netcoreapp2.0\Tamagotchi.pdb
